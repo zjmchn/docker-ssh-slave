@@ -30,7 +30,6 @@ RUN curl --create-dirs -sSLo /usr/share/jenkins/slave.jar http://repo.jenkins-ci
   && chmod 755 /usr/share/jenkins \
   && chmod 644 /usr/share/jenkins/slave.jar 
 
-VOLUME /home/jenkins
 WORKDIR /home/jenkins
 
 # setup SSH server
